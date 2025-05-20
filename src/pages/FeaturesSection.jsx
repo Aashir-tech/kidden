@@ -49,7 +49,7 @@ export default function FeaturesSection() {
             <div className="flex items-center w-full">
               <Image src={"/icons/dress-icon.png"} width={90} height={90} className="mb-4" />
               <p className=" mb-6 text-1xl md:text-2xl font-bold">
-              100% Quaity Safety
+              100% Quality Safety
               And Security
               </p>
             </div>
