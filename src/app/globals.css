@@ -100,11 +100,15 @@ html {
   }
 
   .custom-height-xs {
-    height: 55vh;
+    height: 50vh;
+  }
+
+  .custom-padding {
+    padding-bottom: 20vh;
   }
 
   .custom-margin-xs {
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
   }
 
   .custom-height-programs {

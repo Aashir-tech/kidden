@@ -23,7 +23,7 @@ const Teachers = () => {
           young children engage in foundational learning experiences.
         </p>
 
-        <div className="grid md:grid-cols-4  gap-8 mt-12">
+        <div className="grid md:grid-cols-4 gap-10 sm:gap-8 mt-12">
           <div className="rounded-t-2xl group relative  w-full max-w-md">
             {/* Main Image */}
             <Image

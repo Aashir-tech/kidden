@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import Card from "@/components/ui/Card";
 
@@ -35,7 +34,7 @@ const enrollDetails = [
 
 export default function EnrollSection() {
   return (
-    <div className=" min-h-[150vh] bg-[#F0EFEC] py-16 px-6 md:px-10 lg:px-20 relative z-1">
+    <div className=" min-h-[150vh] bg-[#F0EFEC] py-16 px-6 md:px-10 lg:px-20 relative z-1 custom-padding">
       <div className="absolute top-10 right-10 hidden md:block">
         <Image
           src="/images/monkey.png"
