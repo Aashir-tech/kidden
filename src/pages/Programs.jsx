@@ -124,26 +124,23 @@ const ProgramsPage = () => {
   const totalCards = cards.length;
 
   const handleNext = () => {
-    if (currentIndex < totalCards - 3) {
+    if (currentIndex + cardsPerView < totalCards) {
       setCurrentIndex(currentIndex + 1);
-    }
-
-    if (currentIndex == totalCards - 3) {
-      setCurrentIndex(0);
+    } else {
+      setCurrentIndex(0)
     }
   };
 
   const handlePrev = () => {
-    if (currentIndex > 0) {
-      setCurrentIndex(currentIndex - 1);
-    }
-    if (currentIndex == 0) {
-      setCurrentIndex(totalCards - 3);
+    if(currentIndex > 0) {
+      setCurrentIndex(currentIndex - 1)
+    } else {
+      setCurrentIndex(totalCards - cardsPerView)
     }
   };
 
   return (
-    <div className="min-h-[150vh] bg-white mb-[-12rem] mt-[5rem] sm:mb-[5rem] sm:mt-[0rem] sm:py-16 px-6 md:px-10 lg:px-20 relative z-1">
+    <div className="min-h-[150vh] custom-margin-xs bg-white mb-[-12rem] mt-[5rem] sm:mb-[5rem] sm:mt-[0rem] sm:py-16 px-6 md:px-10 lg:px-20 relative z-1">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 p-5">
           <div>
@@ -174,7 +171,7 @@ const ProgramsPage = () => {
           </div>
         </div>
 
-        <div className="relative w-full h-[70vh]  sm:h-[90vh] overflow-x-hidden">
+        <div className="relative w-full h-[70vh] custom-height-programs  sm:h-[90vh] overflow-x-hidden">
           <div
             className="flex transition-transform duration-500 ease-in-out"
             style={{

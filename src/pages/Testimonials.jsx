@@ -57,21 +57,20 @@ const TestimonialsPage = () => {
   const totalCards = cards.length;
 
   const handleNext = () => {
-    if (currentIndex < totalCards - 3) {
+    if (currentIndex + cardsPerView < totalCards) {
       setCurrentIndex(currentIndex + 1);
+    } else {
+      setCurrentIndex(0)
     }
 
-    if (currentIndex == totalCards - 3) {
-      setCurrentIndex(0);
-    }
+    
   };
 
   const handlePrev = () => {
-    if (currentIndex > 0) {
-      setCurrentIndex(currentIndex - 1);
-    }
-    if (currentIndex == 0) {
-      setCurrentIndex(totalCards - 3);
+    if(currentIndex > 0) {
+      setCurrentIndex(currentIndex - 1)
+    } else {
+      setCurrentIndex(totalCards - cardsPerView)
     }
   };
 
@@ -96,7 +95,7 @@ const TestimonialsPage = () => {
           young children engage in foundational learning experiences.
         </p>
 
-        <div className="relative w-full h-[60vh] sm:h-[100vh] overflow-x-hidden">
+        <div className="relative w-full h-[60vh] custom-height-testimonial-card sm:h-[100vh] overflow-x-hidden">
           <div
             className="flex transition-transform duration-500 ease-in-out"
             style={{ transform: `translateX(-${currentIndex * (100 / cardsPerView)}%)` }}

@@ -24,8 +24,9 @@ const Card = ({title , content , iconBgImage , iconBgColor , arrowBgColor , post
                     alt="service-bg"
                     width={200}
                     height={200}
-                    className="w-full h-[40vh] sm:h-[60vh] rounded-2xl "
+                    className="w-full h-[40vh] custom-height-xs sm:h-[60vh] rounded-2xl "
                   />
+                  {/* 55vh */}
 
                   {/* Content inside the service-bg */}
                   <div className="absolute top-25 w-full left-1/2 -translate-x-1/2 text-center">

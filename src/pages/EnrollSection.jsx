@@ -64,7 +64,7 @@ export default function EnrollSection() {
           young children engage in foundational learning experiences.
         </p>
 
-        <div className="grid md:grid-cols-3  gap-50  sm:gap-8 mt-12">
+        <div className="grid md:grid-cols-3  gap-50 custom-margin sm:gap-8 mt-12">
           {enrollDetails.map((e) => (
             <Card
               key={e.title}

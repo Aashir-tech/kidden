@@ -12,7 +12,7 @@ const ProgramCard = ({ title, description, post, icons , age }) => {
           alt={title}
           width={300}
           height={300}
-          className="w-full h-60 object-cover rounded-2xl"
+          className="w-full h-60  object-cover rounded-2xl"
         />
 
         <div className="absolute inset-x-0 top-30 flex justify-center">

@@ -6,9 +6,9 @@ const HeroSection = () => {
     <>
       <div className="background-layer-1"></div>
       <div className="background-layer-2 relative">
-        <div className="block md:hidden bg-white h-[54vh] w-full absolute bottom-[-10rem] z-0"></div>
+        <div className="block md:hidden bg-white custom-div w-full absolute bottom-[-10rem] z-0"></div>
       </div>
-      <section className="bg-[#FFE39F] absolute sm:relative pt-[96px] w-full min-h-[20vh] sm:min-h-[80vh] flex items-center px-6 sm:my-0 my-6 sm:px-8">
+      <section className="absolute sm:relative pt-[96px] w-full min-h-[20vh] sm:min-h-[80vh] flex items-center px-6 sm:my-0 my-6 sm:px-8">
         <div className="max-w-5xl sm:max-w-7xl mx-auto w-full flex flex-col md:flex-row items-center justify-between">
           {/* Left Content (Optional) */}
           <div className="md:w-1/2 mb-10 md:mb-1 z-20">
