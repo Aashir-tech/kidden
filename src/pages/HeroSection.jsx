@@ -45,14 +45,14 @@ const HeroSection = () => {
           <div className="md:w-1/2 relative flex justify-center items-end h-[470px]">
             {/* Boy Image - Behind */}
             <img
-              src="https://wp.dynamiclayers.net/kidden/wp-content/uploads/sites/32/2024/08/hero-boy.png"
+              src="images/hero-boy.png"
               alt="Boy"
               className="absolute top-[-3rem] right-[30%] w-[280px] md:w-[350px] z-10"
             />
 
             {/* Girl Image - In Front */}
             <img
-              src="https://wp.dynamiclayers.net/kidden/wp-content/uploads/sites/32/2024/08/hero-girl.png"
+              src="images/hero-girl.png"
               alt="Girl"
               className="absolute right-[10%] w-[250px] md:w-[320px] z-10"
             />

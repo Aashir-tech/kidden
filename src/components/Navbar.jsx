@@ -184,7 +184,7 @@ export default function Navbar() {
           <div className="">
             <Image
               src={
-                "https://wp.dynamiclayers.net/kidden/wp-content/themes/kidden/assets/img/logo.png"
+                "/icons/desktop-sidebar-logo.png"
               }
               width={150}
               height={200}

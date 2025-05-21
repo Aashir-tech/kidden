@@ -28,8 +28,8 @@ body {
   height: 100%;
   z-index: 2;
   background-color:#FFE39F;
-  background-image: url('https://wp.dynamiclayers.net/kidden/wp-content/uploads/sites/32/2024/08/pattern-1.png'),
-                    url('https://wp.dynamiclayers.net/kidden/wp-content/uploads/sites/32/2024/08/pattern-1.png');
+  background-image: url('/images/pattern-1.png'),
+                    url('/images/pattern-1.png');
                     
   background-position: center center, bottom right;
   background-repeat: repeat, no-repeat;
@@ -45,7 +45,7 @@ body {
   width: 100%;
   height: 120%;
   z-index: 3;
-  background: url('https://wp.dynamiclayers.net/kidden/wp-content/uploads/sites/32/2024/08/hero-bottom-shape-01.png') no-repeat bottom center;
+  background: url('/images/hero-bottom-shape-01.png') no-repeat bottom center;
   background-size: cover;
 }
 
@@ -56,7 +56,7 @@ body {
   width: 100%;
   height: 120%;
   z-index: 10;
-  background: url('https://wp.dynamiclayers.net/kidden/wp-content/uploads/sites/32/2024/08/hero-bottom-shape-02.png') no-repeat bottom center;
+  background: url("/images/hero-bottom-shape-02.png") no-repeat bottom center;
   background-size: contain;
 }
 
